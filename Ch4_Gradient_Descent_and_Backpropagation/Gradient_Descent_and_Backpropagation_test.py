@@ -27,10 +27,6 @@ class GradientDescentOptimizer:
 # A dictionary that will map operations to gradient functions
 _gradient_registry = {}
 
-# A dictionary that will map operations to gradient functions
-_gradient_registry = {}
-
-
 class RegisterGradient:
     """A decorator for registering the gradient function for an op type.
     """
